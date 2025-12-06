@@ -1,0 +1,339 @@
+html {
+    scroll-behavior: smooth !important;;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(images/firstBG.jpg), url(images/main_background.gif);
+    background-size: 1300px, 300px;
+    background-position: center 85px, center;
+    background-repeat: no-repeat, repeat;
+    overflow: scroll;
+}
+
+.Welcome h1{
+	font-family:trebuchet ms;
+	color: white;
+	font-size: 60px;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+
+.Welcome h1:hover{
+	background-color: #FFFFF;
+	opacity: 1;
+	padding: 20px 30px;
+	letter-spacing: 0.1em;
+	box-shadow: 0 0 35px #E0FFFF;
+	letter-spacing: 0.2em;
+}
+
+.navBar ul{
+	list-style: none;
+	background-image: url(images/nav_background.gif);
+	background-size: 800px;
+	background-position: 0px 230px;
+	padding: 40px 25px 25px;
+	margin: 0;
+	text-align: right;
+}
+
+.navBar a{
+	text-decoration: none;
+	padding: 25px;
+	font-family: trebuchet ms;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.25s;
+}
+
+.navBar a:hover{
+	text-transform: uppercase;
+	color: black;
+	background-color: #FFFF;
+	border-radius: 20%;
+}
+
+.Intro h2{
+	font-family: trebuchet ms;
+	color: white;
+	font-size: 60px;
+	padding-top: 100px;
+	padding-left: 50px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.Intro p{
+	font-family: trebuchet ms;
+	color: white;
+	font-size: 20px;
+	padding-left: 50px;
+	text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+
+}
+
+hr.break1 {
+	margin-top: 475px;
+	border: 20px solid #161616;
+}
+
+.school h1{
+	font-family: trebuchet ms;
+	color: white;
+	font-size: 30px;
+	padding: 10px 30px;
+	text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	margin-top: 50px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	opacity: 0.7;
+
+}
+
+.school h1:hover{
+	background-color: #FFFFF;
+	opacity: 1;
+	padding: 20px 30px;
+	letter-spacing: 0.1em;
+	box-shadow: 0 0 35px #E0FFFF;
+	
+}
+
+.school img{
+	position: center;
+	width: 24%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 90px 50px 75px 150px;
+	transition: 0.25s;
+	float: left;
+	padding: 10px;
+
+}
+
+.school img:hover{
+	background-color: #006A42;
+	box-shadow: 0 0 50px #006A42;
+    transform: scale(1.02,1.02)
+}
+
+.school p{
+	font-family: trebuchet ms;
+	color: white;
+}
+
+.prevSchool {
+	background-color: #161616;
+	overflow: hidden
+}
+
+.prevSchool h1{
+	text-align: center;
+	font-family: trebuchet ms;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	transition: 0.35s;
+	opacity: 0.7;
+}
+
+.prevSchool h1:hover{
+	background-color: #FFFFF;
+	opacity: 1;
+	padding: 10px;
+	letter-spacing: 0.1em;
+	box-shadow: 0 0 35px #E0FFFF;
+	
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.row{
+	font-family:trebuchet ms;
+	color: white;
+	text-align: center;
+}
+
+.prevSchool .schools .elem img{
+	margin: 35px;
+	width: 25%;
+	float: left;
+	padding: 10px;
+	background-color: #FFFF;
+	transition: 0.25s;
+}
+
+.prevSchool .schools .elem img:hover{
+	background-color: #B22222;
+	box-shadow: 0 0 50px #B22222;
+	transform: scale(1.02,1.02)
+}
+
+.prevSchool .schools .jhs img{
+	margin: 35px;
+	width: 25%;
+	margin-left: 60px;
+	float: left;
+	padding: 10px;
+	background-color: #FFFF;
+	transition: 0.25s;
+}
+
+.prevSchool .schools .jhs img:hover{
+	background-color: #800000;
+	box-shadow: 0 0 50px #800000;
+	transform: scale(1.02,1.02)
+}
+
+.prevSchool .schools .shs img{
+	margin: 35px;
+	width: 25%;
+	float: right;
+    padding: 10px;
+	background-color: #FFFF;
+	transition: 0.25s;
+	
+}
+
+.prevSchool .schools .shs img:hover{
+	background-color: #FF0000;
+	box-shadow: 0 0 50px #FF0000;
+	transform: scale(1.02,1.02)
+}
+
+hr.break2 {
+	margin-top: 100px;
+	border: 20px solid #161616;
+}
+
+.achievements h1{
+	margin-top: 50px;
+	text-align: center;
+	font-family: trebuchet ms;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	transition: 0.35s;
+	opacity: 0.7;
+}
+
+.achievements h1:hover{
+	background-color: #FFFFF;
+	opacity: 1;
+	letter-spacing: 0.1em;
+	box-shadow: 0 0 35px #E0FFFF;
+	padding: 10px;
+	letter-spacing: 0.1em;
+}
+
+.achievements .animVid iframe{
+	padding: 10px;
+	background-image: linear-gradient(to right, maroon , #2f86e6);
+	border-radius: 30px;
+	transition: 0.35s;
+	transition: background-color 300ms linear;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+}
+
+.achievements .animVid iframe:hover{
+	background-image: linear-gradient(to bottom right, #2f86e6 , maroon);
+}
+
+.achievements .animVid p{
+	float: left;
+	margin: 100px;
+	font-family: trebuchet ms;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.achievements {
+      text-align: center;
+    }
+
+    .3dModels {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .models img {
+      max-width: 20%;
+      height: auto;
+    }
+	
+	p {
+	position: center;
+	margin: 100px;
+	font-family: trebuchet ms;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	}
+
+
+.top {
+  text-decoration: none;
+  padding: 10px;
+  font-family: trebuchet ms;
+  font-size:20px;
+  color: #fff;
+  background: #191970;
+  border-radius: 100px;
+  position:sticky;
+  border-radius: 100px;
+  float: right;
+  bottom:20px;
+  margin-top:100vh;
+  white-space:nowrap;
+  margin-right:20px; 
+}

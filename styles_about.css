@@ -1,0 +1,64 @@
+
+bhtml {
+    scroll-behavior: smooth !important;;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(images/main_background.gif);
+    overflow: scroll;
+}
+
+.navBar ul{
+	list-style: none;
+	background-image: url(images/nav_background.gif);
+	background-size: 800px;
+	background-position: 0px 230px;
+	padding: 40px 25px 25px;
+	margin: 0;
+	text-align: right;
+}
+
+.navBar a{
+	text-decoration: none;
+	padding: 25px;
+	font-family: trebuchet ms;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.25s;
+}
+
+.navBar a:hover{
+	text-transform: uppercase;
+	color: black;
+	background-color: #FFFF;
+	border-radius: 20%;
+}
+
+p {
+    font-family: trebuchet ms;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+main section img {
+    max-width: 20%;
+    border-radius: 50%;
+	margin: 0 auto;
+    display: block;
+}
+}
